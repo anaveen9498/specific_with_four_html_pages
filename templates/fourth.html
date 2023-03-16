@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<marquee>
+    <h1 style="color: chartreuse;">This is FOURTH Html Page</h1>
+    <div>
+        <h1 style="color:blueviolet"><a href=" {% url 'app1:first' %}">Navigate to first</a></h1>
+    </div>
+    <div>
+        <h1 style="color:blueviolet"><a href=" {% url 'app1:second' %}">Navigate to Second</a></h1>
+    </div>
+    <div>
+        <h1 style="color:blueviolet"><a href=" {% url 'app2:third' %}">Navigate to third</a></h1>
+    </div>
+</marquee>
+
+</body>
+</html>
